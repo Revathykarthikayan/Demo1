@@ -13,7 +13,7 @@ def most_freq(input_string):  # Defining a function
         return None
     else:
         return max_char  # returns the char with maximum count
-result = most_freq(input_string)  #storeing the result of function most_freq
+result = most_freq(input_string)   #storeing the result of function most_freq
 if result is None:
     print("No most frequent character")
 else:
